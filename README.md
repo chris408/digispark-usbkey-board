@@ -2,11 +2,12 @@
 
 The Digispark attiny85 USB key is a super small Arduino compatible device that can be used for lots of different projects. This document and code helps you set one up as a virtual keyboard that will send characters of your choice to the host system.
 
+You can buy one on eBay for around ~$2 USD: https://www.ebay.com/sch/i.html?_nkw=digispark+attiny85+usb
+
 ![](https://s3.amazonaws.com/chris408.com/attiny85.png)
 
 ## Arduino USB keyboard code
 `keyboard.ino` is a Arduino sketch that I made for auto-navigating a MacOS host system. The idea is that you plug this into an unlocked computer that you find around the office. On the version of OSX that I use, the key will bring up Outlook and write an email to get you a free lunch. Obviously, you could do something much more aggressive, like download code or create a reverse shell. This is similar to the [USB rubber ducky](https://www.hak5.org/gear/usb-rubber-ducky) attack.
-You can buy one on eBay for around ~$2 USD: https://www.ebay.com/sch/i.html?_nkw=digispark+attiny85+usb
 
 ## Installation steps
 + Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software)
