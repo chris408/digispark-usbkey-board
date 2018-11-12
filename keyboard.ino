@@ -37,3 +37,4 @@ void loop() {
   // if doing keyboard stuff because it keeps talking to the computer to make
   // sure the computer knows the keyboard is alive and connected
   DigiKeyboard.delay(10000);
+}
